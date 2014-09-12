@@ -1,4 +1,4 @@
-'''
+```
 --- Currently ---
 Overcast
 Temperature:    66.36
@@ -30,4 +30,4 @@ Light rain starting in the evening.
 Max:    73.7
 Min:    51.59
 Rain:   44.0%
-'''
+```

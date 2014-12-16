@@ -16,7 +16,7 @@ geodata = json.loads(findlocation)
 
 # This script uses the forecast.io api and the forecastio python library to download weather information.
 # You must create an account with forecast.io and request an api token.
-api_key = "FORECASE.IO_API_TOKEN"
+api_key = "FORECAST.IO_API_TOKEN"
 
 forecast = forecastio.load_forecast(api_key, geodata['lat'], geodata['lng'])
 dayofWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
